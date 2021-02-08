@@ -1,10 +1,10 @@
 package com.example;
 
-import com.corezoid.gitcall.runner.api.IUsercode;
+import com.corezoid.gitcall.runner.api.UsercodeHandler;
 
 import java.util.Map;
 
-public class Usercode implements IUsercode<Map<String, Integer>, Map<String, Integer>> {
+public class Usercode implements UsercodeHandler<Map<String, Integer>, Map<String, Integer>> {
     @Override
     public Map<String, Integer> handle(Map<String, Integer> data) throws Exception {
         data.put("foo", 123);
