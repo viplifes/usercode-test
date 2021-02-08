@@ -1,7 +1,6 @@
-package com.example;
+package com.corezoid.usercode;
 
 import com.corezoid.gitcall.runner.api.UsercodeHandler;
-
 import java.util.Map;
 
 public class Usercode implements UsercodeHandler<Map<String, Integer>, Map<String, Integer>> {
